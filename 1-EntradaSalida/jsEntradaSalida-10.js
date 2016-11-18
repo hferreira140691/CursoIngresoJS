@@ -9,7 +9,7 @@ function MostrarAumento()
 	var total
 
 	importe=document.getElementById('importe').value;
-	descuento= importe *25/100;
+	descuento= importe *0.25;
 	importe=parseInt (importe);
 	descuento=parseInt(descuento);
 	total= importe-descuento;
